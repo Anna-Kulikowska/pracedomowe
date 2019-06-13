@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Moja pierwsza strona</title>
+	<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<header>
+	<a href="index.html">Strona główna</a><br>
+	<a href="podstrona.html">Kim-jestem</a>
+</header>
+
+<body>
+	<main>
+		<header>
+			<h1 class="mainHeader"> Anna Kulikowska-moje programowanie</h1>
+		</header>
+		<p class="mainPar">Na tej stronie znajdziesz następujące treści:<br>
+			<a href="#Kim-jestem">Kim jestem</a><br>
+			<a href="#pamiętniczek">Pamiętniczek</a><br>
+			<a href="#jak-mi-idzie">Jak mi idzie?</a><br>
+		</p>
+		<article>
+			<h2 class="sectionHeader">Moje opisy</h2>
+			<section id="Kim-jestem">
+				<h2>Kim jestem</h2>
+				<p class="mainPar">Jestem początkującą programistką, z zawodu tłumaczem języka angielskiego a z powołania nauczycielem
+					tegoż języka.</p><br>
+				<a href="podstrona.html">Przejdź do artykułu</a>
+			</section>
+			<section id="pamiętniczek">
+				<h2 class="diaryHeader">Pamiętniczek</h2>
+				<h3 class="date">29.05.2019</h3>
+				<p class="mainPar">Dzisiaj nauczyłam się czym jest reguła CSS, na czym polega kaskadowość arkuszy stylów.
+				</p>
+				<h3 class="date">05.06.2019</h3>
+				<p>Dzisiaj uczyłam się o znaczniku a, atrybucie href oraz o znacznikach em, i, b, strong. <br>
+					Dowiedziałam się jak przechodzić ze strony na stronę: należy użyć znacznika a.<br>
+					Następnie dowiedziałam się jak przechodzić wewnątrz dokumentu za pomocą kotwicy.
+				</p>
+				<h3 class="date">10.06.2019</h3>
+				<p>
+					Dzisiaj po raz pierwszy uczyłam się o JavaScript. Nie było tak strasznie jak sądziłam, że będzie<br>
+					ponieważ JS jest trochę podobny do Ruby o którym już wcześniej czytałam.<br>
+					<a href="dzien-z-JS.html">Przejdź do artykułu o JS</a>
+				</p>
+				<h3 class="date">11.06.2019</h3>
+				<p>
+					Dzisiaj rozpoczne tydzień czwarty.<br>
+					<a href="tydzień-4.html">Przejdź do artykułu</a>
+				</p>
+			</section>
+			<section id="jak-mi-idzie">
+				<h2>Jak mi idzie?</h2>
+				<p>Jest dobrze. Frontend nie wydaje się już taki straszny po tym jak dotarłam do 7. rodziału ksiązki o
+					Ruby.</p>
+			</section>
+			<footer class="foot">Autorem artykułu jest Anna Kulikowska</footer>
+		</article>
+	</main>
+	<footer>
+		Wszystkie teksty są efektem szkolenia WTF Coten frontend.
+	</footer>
+	<script src="main.js"> </script>
+</body>
+
+</html>

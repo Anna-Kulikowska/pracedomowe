@@ -1,0 +1,28 @@
+body {
+    background: #fefefe;
+}
+
+.mainHeader {
+    color: #1460aa;
+    font-size: 64px;
+}
+
+.sectionHeader {
+    color: red;
+text-emphasis  : bold;
+}
+.diaryHeader {
+    color: blueviolet;
+}
+.mainPar {
+color: orangered;
+font-size: 35px;
+}
+.date {
+    font-weight: 500;
+    background-color: aqua
+}
+.foot {
+    font-style: italic;
+    background-color: crimson;
+}
