@@ -1,5 +1,5 @@
 body {
-    background: salmon;
+    background: #fefefe;
 }
 
 .mainHeader {
@@ -20,9 +20,62 @@ font-size: 35px;
 }
 .date {
     font-weight: 500;
-    background-color: aqua
+    background-color: aqua;
+    padding-left: 16px;
+    border: 3px solid blue;
+    width: 50%;
 }
 .foot {
     font-style: italic;
     background-color: crimson;
+}
+.link {
+    color: blue;
+}
+.about {
+    width: 100%;
+    max-width: 400px;
+    margin: 32px auto;
+    position: relative;
+}
+.main {
+    width: 100%;
+    max-width: 700px;
+    margin: 16px auto;
+}
+.box, .boxTest {
+    width: 100px;
+    height: 100px;
+    background-color: yellowgreen;
+    padding: 10px;
+    border: 10px solid red;
+    box-sizing: border-box;
+    position: absolute;
+}
+.boxTest {
+    top: 30px;
+    right: 55%;
+    background-color: blueviolet;
+}
+.top {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: yellowgreen;
+}
+.navigation {
+    position: fixed;
+    widows: 100%;
+    top:10px;
+    left:0px;
+    box-sizing: border-box;
+    padding: 16px;
+
+}
+.image {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    float: left;
+    margin: 0 16px 16px 0;
 }

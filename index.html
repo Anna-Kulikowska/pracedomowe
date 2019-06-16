@@ -8,13 +8,13 @@
 	<title>Moja pierwsza strona</title>
 	<link href="style.css" rel="stylesheet" type="text/css">
 </head>
-<header>
-	<a href="index.html">Strona główna</a><br>
-	<a href="podstrona.html">Kim-jestem</a>
-</header>
 
 <body>
-	<main>
+		<header id="top" class navigation>
+				<a class="link" href="index.html">Strona główna</a><br>
+				<a class="link" href="podstrona.html">Kim-jestem</a>
+			</header>
+	<main class="main">
 		<header>
 			<h1 class="mainHeader"> Anna Kulikowska-moje programowanie od zera</h1>
 		</header>
@@ -25,12 +25,13 @@
 		</p>
 		<article>
 			<h2 class="sectionHeader">Moje opisy</h2>
-			<section id="Kim-jestem">
-				<h2>Kim jestem</h2>
+			<section class="about" id="Kim-jestem">
+							<h2>Kim jestem</h2>
+				<img src="anna-kulikowska.jpg" alt="zdjęcie autorki" class="image"/>
 				<p class="mainPar">Jestem początkującą programistką, z zawodu tłumaczem języka angielskiego a z powołania nauczycielem
 					tegoż języka.</p><br>
 				<a href="podstrona.html">Przejdź do artykułu</a>
-			</section>
+			</section class="dairy">
 			<section id="pamiętniczek">
 				<h2 class="diaryHeader">Pamiętniczek</h2>
 				<h3 class="date">29.05.2019</h3>
@@ -62,6 +63,7 @@
 		</article>
 	</main>
 	<footer>
+		<a href="#top" class="top">Na górę</a>
 		Wszystkie teksty są efektem szkolenia WTF Coten frontend.
 	</footer>
 	<script src="main.js"> </script>
