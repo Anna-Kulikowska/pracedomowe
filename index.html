@@ -7,35 +7,60 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Moja pierwsza strona</title>
 	<link href="style.css" rel="stylesheet" type="text/css">
+	<link href="normalize.css" rel="stylesheet" type="text/css">
 </head>
 
-<body>
-		<header id="top" class navigation>
-				<a class="link" href="index.html">Strona główna</a><br>
-				<a class="link" href="podstrona.html">Kim-jestem</a>
-			</header>
+<body class="page">
+	<header id="top" class="main_header">
+		<ul class="navigation_link">
+			<li><a class="navigation_link" href="index.html">Strona główna</a><br></li>
+			<li><a class="navigation_link" href="podstrona.html">Kim-jestem</a></li>
+		</ul>
+	</header>
 	<main class="main">
 		<header>
-			<h1 class="mainHeader"> Anna Kulikowska-moje programowanie od zera</h1>
+			<h1 class="main_header"> Anna Kulikowska-moje programowanie od zera</h1>
 		</header>
-		<p class="mainPar">Na tej stronie znajdziesz następujące treści:<br>
+		<p class="main_paragraph">Na tej stronie znajdziesz następujące treści:<br>
 			<a href="#Kim-jestem">Kim jestem</a><br>
 			<a href="#pamiętniczek">Pamiętniczek</a><br>
 			<a href="#jak-mi-idzie">Jak mi idzie?</a><br>
 		</p>
-		<article>
-			<h2 class="sectionHeader">Moje opisy</h2>
+		<article class="article">
+			<h2 class="article_header">Moje opisy</h2>
 			<section class="about" id="Kim-jestem">
-							<h2>Kim jestem</h2>
-				<img src="anna-kulikowska.jpg" alt="zdjęcie autorki" class="image"/>
-				<p class="mainPar">Jestem początkującą programistką, z zawodu tłumaczem języka angielskiego a z powołania nauczycielem
+				<h2>Kim jestem</h2>
+				<img src="anna-kulikowska.jpg" alt="zdjęcie autorki" class="article_image" />
+				<p class="article_paragraph">Jestem początkującą programistką, z zawodu tłumaczem języka angielskiego a
+					z
+					powołania nauczycielem
 					tegoż języka.</p><br>
 				<a href="podstrona.html">Przejdź do artykułu</a>
-			</section class="dairy">
+			</section>
+			<section class="hobby">
+				<h2>Hobby</h2>
+				<ul class="hobby_list">
+					<li>Języki obce</li>
+					<li>Ekologiczny styl życia</li>
+					<li>Gotowanie</li>
+				</ul>
+				<h2>Czas wolny-plany</h2>
+				<ol>
+					<li>Kurs tańca</li>
+					<ul>
+						<li>Discofox</li>
+						<li>Latino Mix</li>
+					</ul>
+					<li>Bieganie</li>
+					<li>Programowanie</li>
+				</ol>
+			</section>
 			<section id="pamiętniczek">
 				<h2 class="diaryHeader">Pamiętniczek</h2>
+				<p class="article_paragraph">Zapraszam do lektury pamiętniczka</p><br>
 				<h3 class="date">29.05.2019</h3>
-				<p class="mainPar">Dzisiaj nauczyłam się czym jest reguła CSS, na czym polega kaskadowość arkuszy stylów.
+				<p class="mainPar">Dzisiaj nauczyłam się czym jest reguła CSS, na czym polega kaskadowość arkuszy
+					stylów.
 				</p>
 				<h3 class="date">05.06.2019</h3>
 				<p>Dzisiaj uczyłam się o znaczniku a, atrybucie href oraz o znacznikach em, i, b, strong. <br>
@@ -61,6 +86,43 @@
 			</section>
 			<footer class="foot">Autorem artykułu jest Anna Kulikowska</footer>
 		</article>
+		<section class="glossary"></section>
+		<h2>Glossary</h2>
+		<dl>
+			<dt>HTML</dt>
+			<dd>Hypertext Markup Language</dd>
+			<dt>CSS</dt>
+			<dd>Cascading Style Sheets</dd>
+		</dl>
+		<section class="data"></section>
+		<h2>Tabeleczka</h2>
+		<table class="table">
+			<caption>Oceny</caption>
+			<thead>
+				<tr>
+				<th>Imię i nazwisko</th>
+				<th>OCena</th>
+				<th>Data</th>
+			</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Anna Kulikowska</td>
+					<td>5</td>
+					<td>2 czerwca 2019</td>
+				</tr>
+				<tr>
+						<td>Jan Nowak</td>
+						<td>6</td>
+						<td>2 czerwca 2019</td>
+					</tr>
+					<tr>
+							<td>Karolina Bąk</td>
+							<td>4</td>
+							<td>2 czerwca 2019</td>
+						</tr>
+			</tbody>
+		</table>
 	</main>
 	<footer>
 		<a href="#top" class="top">Na górę</a>

@@ -1,48 +1,85 @@
 body {
     background: #fefefe;
 }
+.page {
+    background-image: url('img/teacher_in_the_classroom.jpg');
+    background-repeat: repeat-y;
+    background-position: top left;
+    min-height: 100vh;
+    background-attachment: local;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(97,95,10,1) 10%, rgba(165,25,189,0.4374124649859944) 25%, rgba(0,212,255,1) 65%);
+}
 
-.mainHeader {
+.main {}
+
+.main_header {
     color: #1460aa;
-    font-size: 64px;
+    font-size: 32px;
+}
+
+.main_paragraph {}
+
+.article {}
+
+.article_header {}
+
+.article_image {
+    width: 100%;
+    max-width: 500px;
+    display: block;
+    float: left;
+    margin: 0 16px 16px 0;
+}
+.article_paragraph {
+    color: orangered;
+    font-size: 35px;
 }
 
 .sectionHeader {
     color: red;
-text-emphasis  : bold;
+    text-emphasis: bold;
 }
+
 .diaryHeader {
     color: blueviolet;
 }
-.mainPar {
-color: orangered;
-font-size: 35px;
-}
+
 .date {
     font-weight: 500;
     background-color: aqua;
     padding-left: 16px;
     border: 3px solid blue;
     width: 50%;
+    line-height: 32px;
 }
+
 .foot {
     font-style: italic;
     background-color: crimson;
 }
-.link {
+
+.navigation {}
+
+.navigation_link {
     color: blue;
+    display: flex;
+    align-content: center;
+    justify-content: center;
 }
+
 .about {
     width: 100%;
     max-width: 400px;
     margin: 32px auto;
     position: relative;
 }
+
 .main {
     width: 100%;
     max-width: 700px;
     margin: 16px auto;
 }
+
 .box, .boxTest {
     width: 100px;
     height: 100px;
@@ -52,30 +89,50 @@ font-size: 35px;
     box-sizing: border-box;
     position: absolute;
 }
+
 .boxTest {
     top: 30px;
     right: 55%;
     background-color: blueviolet;
 }
+
 .top {
     position: fixed;
     bottom: 10px;
     right: 10px;
     color: yellowgreen;
 }
+
 .navigation {
     position: fixed;
     widows: 100%;
-    top:10px;
-    left:0px;
+    top: 10px;
+    left: 0px;
     box-sizing: border-box;
     padding: 16px;
+}
+
+.image {}
+
+
+
+article section h2{
 
 }
-.image {
+
+article.article  section h2{
+
+}
+
+.article section h2{
+
+}
+.hobby{
+
+}
+.hobby_list{
+
+}
+.table {
     width: 100%;
-    max-width: 500px;
-    display: block;
-    float: left;
-    margin: 0 16px 16px 0;
 }
