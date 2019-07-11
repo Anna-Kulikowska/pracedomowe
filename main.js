@@ -16,3 +16,6 @@ function calculate (x){
     return x*7
 }
 calculate(1);
+const welcome = (name, age)=>{
+    console.log ('Witaj ${age} masz ${wiek}lat')
+}
